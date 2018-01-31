@@ -233,7 +233,7 @@ public class ArticleDetailFragment extends Fragment implements
 // I have implemented cordinatorlayout
             }
             bodyView.setText(Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY).replaceAll("(\r\n|\n)", "<br />")));
-            ImageLoaderHelper.getInstance((ArticleListActivity) getActivity()).getImageLoader()
+            ImageLoaderHelper.getInstance(getActivity().getApplicationContext()).getImageLoader()
                     .get(mCursor.getString(ArticleLoader.Query.PHOTO_URL), new ImageLoader.ImageListener() {
                         @Override
                         public void onResponse(ImageLoader.ImageContainer imageContainer, boolean b) {
