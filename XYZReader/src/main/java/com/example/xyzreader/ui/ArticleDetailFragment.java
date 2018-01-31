@@ -230,7 +230,7 @@ public class ArticleDetailFragment extends Fragment implements
                         outputFormat.format(publishedDate) + " by <font color='#ffffff'>"
                         + mCursor.getString(ArticleLoader.Query.AUTHOR)
                                 + "</font>"));
-
+// I have implemented cordinatorlayout
             }
             bodyView.setText(Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY).replaceAll("(\r\n|\n)", "<br />")));
             ImageLoaderHelper.getInstance((ArticleListActivity) getActivity()).getImageLoader()

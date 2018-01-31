@@ -34,7 +34,7 @@ import com.example.xyzreader.data.UpdaterService;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.GregorianCalendar; 
+import java.util.GregorianCalendar;
 
 /**
  * An activity representing a list of Articles. This activity has different presentations for
