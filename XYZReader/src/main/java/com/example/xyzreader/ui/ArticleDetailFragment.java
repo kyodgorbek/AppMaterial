@@ -118,7 +118,7 @@ public class ArticleDetailFragment extends Fragment implements
           //      mTopInset = insets.top;
          //   }
         //});
-
+ 
         mScrollView = (ObservableScrollView) mRootView.findViewById(R.id.scrollview);
         mScrollView.setCallbacks(new ObservableScrollView.Callbacks() {
             @Override
