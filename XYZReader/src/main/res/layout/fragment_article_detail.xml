@@ -11,7 +11,6 @@
         android:layout_height="300dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         android:fitsSystemWindows="true"
-        app:layout_scrollFlags="scroll|exitUntilCollapsed"
         >
 
     <android.support.design.widget.CollapsingToolbarLayout
@@ -27,7 +26,7 @@
         <FrameLayout
             android:id="@+id/photo_container"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:background="@color/photo_placeholder">
             <!--suppress AndroidLintContentDescription -->
             <ImageView
@@ -81,7 +80,13 @@
 
 
 
-
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/detail_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            app:contentInsetStart="@dimen/detail_body_top_margin"
+            app:layout_collapseMode="pin"/>
 
 
 

@@ -122,7 +122,7 @@ public class ArticleDetailFragment extends Fragment implements
           //      mTopInset = insets.top;
          //   }
         //});
- 
+
         mScrollView = (NestedScrollView) mRootView.findViewById(R.id.scrollview);
         mScrollView.setOnTouchListener(new NestedScrollView.OnTouchListener() {
             @Override
