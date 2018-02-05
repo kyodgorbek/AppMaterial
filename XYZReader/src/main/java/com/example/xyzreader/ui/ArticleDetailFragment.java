@@ -122,7 +122,7 @@ public class ArticleDetailFragment extends Fragment implements
 
         mScrollView = (NestedScrollView) mRootView.findViewById(R.id.scrollview);
         mScrollView.setCallbacks(new NestedScrollView.Callbacks() {
-            @Override
+            @Override 
             public void onScrollChanged() {
                 mScrollY = mScrollView.getScrollY();
                 getActivityCast().onUpButtonFloorChanged(mItemId, ArticleDetailFragment.this);
