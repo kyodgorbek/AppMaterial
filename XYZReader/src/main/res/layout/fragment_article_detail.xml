@@ -115,7 +115,7 @@ app:layout_behavior="@string/appbar_scrolling_view_behavior">
         android:paddingBottom="@dimen/detail_body_bottom_margin"
         android:textColor="@color/ltgray"
         android:textColorLink="@color/theme_accent"
-        android:textSize="@dimen/detail_body_text_size"
+        android:textSize="14sp"
         android:lineSpacingMultiplier="@fraction/detail_body_line_spacing_multiplier" />
 
 
