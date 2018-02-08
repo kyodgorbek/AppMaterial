@@ -31,7 +31,6 @@
                     android:layout_height="wrap_content"
                     android:contentDescription="@string/app_name"
                     android:alpha=".75"
-                    android:scaleType="centerCrop"
                     android:fontFamily="@assets/Rosario-Regular"
                     android:background="@drawable/photo_background_protection"
                     android:src="@drawable/logo" />
