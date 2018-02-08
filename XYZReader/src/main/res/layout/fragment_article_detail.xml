@@ -66,7 +66,7 @@
                     android:fontFamily="sans-serif-condensed"
                     android:textColor="#fff"
                     android:textStyle="bold"
-                    android:textSize="@dimen/detail_title_text_size"
+                    android:textSize="20sp"
                     android:lineSpacingMultiplier="0.9" />
 
                 <TextView
@@ -74,7 +74,8 @@
                     style="?android:attr/textAppearanceSmall"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#8fff" />
+                    android:textColor="#8fff"
+                    android:textSize="16sp"/>
             </LinearLayout>
 
         </FrameLayout>
