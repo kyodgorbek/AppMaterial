@@ -26,7 +26,7 @@
 
         <activity
             android:name=".ui.ArticleDetailActivity"
-            android:parentActivityName=".ui.ArticleListActivity">
+            android:parentActivityName=".ui.ArticleListActivity"> 
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -43,7 +43,7 @@
         <provider android:name=".data.ItemsProvider"
             android:authorities="com.example.xyzreader"
             android:exported="false" />
-       
+
     </application>
 
 </manifest>
