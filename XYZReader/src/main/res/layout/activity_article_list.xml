@@ -10,7 +10,7 @@
         android:layout_height="168dp"
         android:background="@color/primary_material_dark"
 
-        android:elevation="4dp">
+        android:elevation="4dp"> 
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:layout_width="match_parent"
