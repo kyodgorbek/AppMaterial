@@ -43,7 +43,7 @@
         <provider android:name=".data.ItemsProvider"
             android:authorities="com.example.xyzreader"
             android:exported="false" />
-
+       
     </application>
 
 </manifest>
